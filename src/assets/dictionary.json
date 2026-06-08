@@ -1,0 +1,978 @@
+// src/assets/dictionary.json
+// Offline dictionary with 200+ common words for vocabulary learning
+// Format: { word: { meaning, synonyms, example, partOfSpeech } }
+
+{
+  "abandon": {
+    "meaning": "To leave completely and finally; forsake utterly.",
+    "synonyms": ["desert", "forsake", "relinquish", "give up"],
+    "example": "She had to abandon her car in the flood.",
+    "partOfSpeech": "verb"
+  },
+  "aberrant": {
+    "meaning": "Departing from an accepted standard; deviating from the normal type.",
+    "synonyms": ["abnormal", "deviant", "anomalous", "atypical"],
+    "example": "The scientist noted aberrant behavior in the test subjects.",
+    "partOfSpeech": "adjective"
+  },
+  "abhor": {
+    "meaning": "To regard with disgust and hatred.",
+    "synonyms": ["detest", "loathe", "despise", "hate"],
+    "example": "He abhors violence of any kind.",
+    "partOfSpeech": "verb"
+  },
+  "abstract": {
+    "meaning": "Existing in thought or as an idea but not having a physical or concrete existence.",
+    "synonyms": ["theoretical", "conceptual", "notional", "hypothetical"],
+    "example": "Freedom is an abstract concept that means different things to different people.",
+    "partOfSpeech": "adjective"
+  },
+  "abundant": {
+    "meaning": "Existing or available in large quantities; plentiful.",
+    "synonyms": ["plentiful", "copious", "ample", "profuse"],
+    "example": "The region has abundant natural resources.",
+    "partOfSpeech": "adjective"
+  },
+  "acquiesce": {
+    "meaning": "Accept something reluctantly but without protest.",
+    "synonyms": ["comply", "consent", "agree", "concede"],
+    "example": "Sara acquiesced to her parents' wishes.",
+    "partOfSpeech": "verb"
+  },
+  "adept": {
+    "meaning": "Very skilled or proficient at something.",
+    "synonyms": ["expert", "skilled", "proficient", "accomplished"],
+    "example": "She is adept at solving complex mathematical problems.",
+    "partOfSpeech": "adjective"
+  },
+  "adversity": {
+    "meaning": "Difficulties; misfortune.",
+    "synonyms": ["hardship", "difficulty", "misfortune", "struggle"],
+    "example": "She showed great strength in the face of adversity.",
+    "partOfSpeech": "noun"
+  },
+  "aesthetic": {
+    "meaning": "Concerned with beauty or the appreciation of beauty.",
+    "synonyms": ["artistic", "tasteful", "refined", "elegant"],
+    "example": "The room was designed with an aesthetic eye.",
+    "partOfSpeech": "adjective"
+  },
+  "affable": {
+    "meaning": "Friendly, good-natured, or easy to talk to.",
+    "synonyms": ["friendly", "amiable", "genial", "cordial"],
+    "example": "He was an affable host who made everyone feel welcome.",
+    "partOfSpeech": "adjective"
+  },
+  "ambiguous": {
+    "meaning": "Open to more than one interpretation; having a double meaning.",
+    "synonyms": ["unclear", "vague", "equivocal", "indefinite"],
+    "example": "The instructions were ambiguous and confusing.",
+    "partOfSpeech": "adjective"
+  },
+  "ambivalent": {
+    "meaning": "Having mixed feelings or contradictory ideas about something.",
+    "synonyms": ["uncertain", "undecided", "hesitant", "conflicted"],
+    "example": "She felt ambivalent about the job offer.",
+    "partOfSpeech": "adjective"
+  },
+  "ameliorate": {
+    "meaning": "Make something bad or unsatisfactory better.",
+    "synonyms": ["improve", "better", "enhance", "upgrade"],
+    "example": "Steps were taken to ameliorate the situation.",
+    "partOfSpeech": "verb"
+  },
+  "amiable": {
+    "meaning": "Having or displaying a friendly and pleasant manner.",
+    "synonyms": ["friendly", "affable", "pleasant", "genial"],
+    "example": "The teacher had an amiable personality.",
+    "partOfSpeech": "adjective"
+  },
+  "anarchy": {
+    "meaning": "A state of disorder due to absence or non-recognition of authority.",
+    "synonyms": ["chaos", "disorder", "lawlessness", "mayhem"],
+    "example": "The country fell into anarchy after the war.",
+    "partOfSpeech": "noun"
+  },
+  "anomaly": {
+    "meaning": "Something that deviates from what is standard or expected.",
+    "synonyms": ["irregularity", "exception", "deviation", "oddity"],
+    "example": "The result was an anomaly that couldn't be explained.",
+    "partOfSpeech": "noun"
+  },
+  "apathy": {
+    "meaning": "Lack of interest, enthusiasm, or concern.",
+    "synonyms": ["indifference", "lethargy", "listlessness", "unconcern"],
+    "example": "Political apathy is a growing concern in modern democracies.",
+    "partOfSpeech": "noun"
+  },
+  "ardent": {
+    "meaning": "Very enthusiastic or passionate.",
+    "synonyms": ["passionate", "fervent", "zealous", "eager"],
+    "example": "She was an ardent supporter of environmental causes.",
+    "partOfSpeech": "adjective"
+  },
+  "articulate": {
+    "meaning": "Having or showing the ability to speak fluently and coherently.",
+    "synonyms": ["eloquent", "fluent", "expressive", "well-spoken"],
+    "example": "She was an articulate speaker who captivated her audience.",
+    "partOfSpeech": "adjective"
+  },
+  "astute": {
+    "meaning": "Having or showing an ability to accurately assess situations.",
+    "synonyms": ["shrewd", "clever", "perceptive", "sharp"],
+    "example": "He was an astute businessman who rarely made poor investments.",
+    "partOfSpeech": "adjective"
+  },
+  "audacious": {
+    "meaning": "Showing a willingness to take bold risks.",
+    "synonyms": ["bold", "daring", "brave", "fearless"],
+    "example": "It was an audacious plan that no one else would have attempted.",
+    "partOfSpeech": "adjective"
+  },
+  "austere": {
+    "meaning": "Severe or strict in manner or attitude; having no comforts or luxuries.",
+    "synonyms": ["stern", "strict", "harsh", "spartan"],
+    "example": "The monks lived an austere life of simplicity.",
+    "partOfSpeech": "adjective"
+  },
+  "banal": {
+    "meaning": "So lacking in originality as to be obvious and boring.",
+    "synonyms": ["trite", "clichéd", "hackneyed", "mundane"],
+    "example": "The speech was filled with banal platitudes.",
+    "partOfSpeech": "adjective"
+  },
+  "benevolent": {
+    "meaning": "Well meaning and kindly.",
+    "synonyms": ["kind", "generous", "charitable", "philanthropic"],
+    "example": "The benevolent donor gave millions to the hospital.",
+    "partOfSpeech": "adjective"
+  },
+  "brazen": {
+    "meaning": "Bold and without shame.",
+    "synonyms": ["shameless", "audacious", "impudent", "bold"],
+    "example": "He made a brazen attempt to cheat on the exam.",
+    "partOfSpeech": "adjective"
+  },
+  "brevity": {
+    "meaning": "Concise and exact use of words in writing or speech.",
+    "synonyms": ["conciseness", "terseness", "succinctness", "pithiness"],
+    "example": "The essay was praised for its clarity and brevity.",
+    "partOfSpeech": "noun"
+  },
+  "cacophony": {
+    "meaning": "A harsh, discordant mixture of sounds.",
+    "synonyms": ["discord", "dissonance", "din", "noise"],
+    "example": "The city street was a cacophony of car horns and voices.",
+    "partOfSpeech": "noun"
+  },
+  "candid": {
+    "meaning": "Truthful and straightforward; frank.",
+    "synonyms": ["frank", "honest", "direct", "straightforward"],
+    "example": "She gave a candid assessment of the situation.",
+    "partOfSpeech": "adjective"
+  },
+  "capricious": {
+    "meaning": "Given to sudden and unaccountable changes of mood or behavior.",
+    "synonyms": ["unpredictable", "fickle", "erratic", "impulsive"],
+    "example": "The weather is capricious in the spring months.",
+    "partOfSpeech": "adjective"
+  },
+  "catalyst": {
+    "meaning": "A person or thing that precipitates an event.",
+    "synonyms": ["trigger", "stimulus", "spark", "impetus"],
+    "example": "The speech acted as a catalyst for change.",
+    "partOfSpeech": "noun"
+  },
+  "caustic": {
+    "meaning": "Sarcastic in a scathing and bitter way.",
+    "synonyms": ["sarcastic", "biting", "cutting", "mordant"],
+    "example": "His caustic wit made his colleagues uncomfortable.",
+    "partOfSpeech": "adjective"
+  },
+  "circumspect": {
+    "meaning": "Wary and unwilling to take risks.",
+    "synonyms": ["cautious", "careful", "prudent", "wary"],
+    "example": "She was circumspect in her financial decisions.",
+    "partOfSpeech": "adjective"
+  },
+  "clandestine": {
+    "meaning": "Kept secret or done secretly, especially because illicit.",
+    "synonyms": ["secret", "covert", "hidden", "underground"],
+    "example": "They held clandestine meetings in abandoned warehouses.",
+    "partOfSpeech": "adjective"
+  },
+  "coherent": {
+    "meaning": "Logical and consistent; forming a unified whole.",
+    "synonyms": ["logical", "consistent", "rational", "clear"],
+    "example": "She presented a coherent argument for the proposal.",
+    "partOfSpeech": "adjective"
+  },
+  "complacent": {
+    "meaning": "Showing smug or uncritical satisfaction with oneself or one's achievements.",
+    "synonyms": ["smug", "self-satisfied", "content", "unconcerned"],
+    "example": "Don't become complacent just because you've had some early success.",
+    "partOfSpeech": "adjective"
+  },
+  "concede": {
+    "meaning": "Admit or agree that something is true after first denying it.",
+    "synonyms": ["admit", "acknowledge", "grant", "yield"],
+    "example": "She conceded that she had made a mistake.",
+    "partOfSpeech": "verb"
+  },
+  "condescending": {
+    "meaning": "Acting in a way that betrays a feeling of superiority.",
+    "synonyms": ["patronizing", "disdainful", "superior", "arrogant"],
+    "example": "His condescending attitude alienated his teammates.",
+    "partOfSpeech": "adjective"
+  },
+  "convoluted": {
+    "meaning": "Extremely complex and difficult to follow.",
+    "synonyms": ["complex", "complicated", "tortuous", "intricate"],
+    "example": "The legal document was filled with convoluted language.",
+    "partOfSpeech": "adjective"
+  },
+  "copious": {
+    "meaning": "Abundant in supply or quantity.",
+    "synonyms": ["abundant", "plentiful", "ample", "profuse"],
+    "example": "She took copious notes during the lecture.",
+    "partOfSpeech": "adjective"
+  },
+  "credulous": {
+    "meaning": "Having or showing too great a readiness to believe things.",
+    "synonyms": ["gullible", "naive", "trusting", "unsuspecting"],
+    "example": "The credulous tourist was easily scammed.",
+    "partOfSpeech": "adjective"
+  },
+  "cynical": {
+    "meaning": "Believing that people are motivated purely by self-interest.",
+    "synonyms": ["skeptical", "pessimistic", "distrustful", "doubtful"],
+    "example": "After years in politics, he became cynical about human nature.",
+    "partOfSpeech": "adjective"
+  },
+  "debilitate": {
+    "meaning": "Make someone very weak and infirm.",
+    "synonyms": ["weaken", "enfeeble", "incapacitate", "exhaust"],
+    "example": "The illness debilitated him for months.",
+    "partOfSpeech": "verb"
+  },
+  "deception": {
+    "meaning": "The action of deceiving someone.",
+    "synonyms": ["fraud", "trickery", "deceit", "duplicity"],
+    "example": "The scheme relied on deception and manipulation.",
+    "partOfSpeech": "noun"
+  },
+  "deference": {
+    "meaning": "Humble submission and respect.",
+    "synonyms": ["respect", "submission", "regard", "reverence"],
+    "example": "She treated the elder with great deference.",
+    "partOfSpeech": "noun"
+  },
+  "deliberate": {
+    "meaning": "Done consciously and intentionally.",
+    "synonyms": ["intentional", "calculated", "purposeful", "planned"],
+    "example": "It was a deliberate attempt to mislead the public.",
+    "partOfSpeech": "adjective"
+  },
+  "delusion": {
+    "meaning": "An idiosyncratic belief or impression that is firmly maintained despite evidence to the contrary.",
+    "synonyms": ["illusion", "fantasy", "misconception", "hallucination"],
+    "example": "He was suffering from delusions of grandeur.",
+    "partOfSpeech": "noun"
+  },
+  "demagogue": {
+    "meaning": "A political leader who seeks support by appealing to popular desires and prejudices.",
+    "synonyms": ["agitator", "rabble-rouser", "firebrand", "inciter"],
+    "example": "The demagogue used fear and anger to gain followers.",
+    "partOfSpeech": "noun"
+  },
+  "denounce": {
+    "meaning": "Publicly declare to be wrong or evil.",
+    "synonyms": ["condemn", "criticize", "censure", "decry"],
+    "example": "The senator denounced the proposed legislation.",
+    "partOfSpeech": "verb"
+  },
+  "depict": {
+    "meaning": "Represent by a drawing, painting, or other art form.",
+    "synonyms": ["portray", "show", "illustrate", "represent"],
+    "example": "The mural depicts scenes from everyday life.",
+    "partOfSpeech": "verb"
+  },
+  "desolate": {
+    "meaning": "A place deserted of people and in a state of bleak emptiness.",
+    "synonyms": ["barren", "bleak", "empty", "deserted"],
+    "example": "The landscape was utterly desolate after the fire.",
+    "partOfSpeech": "adjective"
+  },
+  "diligent": {
+    "meaning": "Having or showing care and conscientiousness in one's work.",
+    "synonyms": ["hardworking", "industrious", "assiduous", "painstaking"],
+    "example": "She was a diligent student who never missed a deadline.",
+    "partOfSpeech": "adjective"
+  },
+  "discern": {
+    "meaning": "Perceive or recognize something.",
+    "synonyms": ["perceive", "distinguish", "detect", "recognize"],
+    "example": "He could discern the outline of a figure in the fog.",
+    "partOfSpeech": "verb"
+  },
+  "disparage": {
+    "meaning": "Regard or represent as being of little worth.",
+    "synonyms": ["belittle", "denigrate", "deprecate", "dismiss"],
+    "example": "He disparaged his rival's accomplishments.",
+    "partOfSpeech": "verb"
+  },
+  "dubious": {
+    "meaning": "Hesitating or doubting; not to be relied upon.",
+    "synonyms": ["doubtful", "uncertain", "suspicious", "questionable"],
+    "example": "She had a dubious expression when she heard his excuse.",
+    "partOfSpeech": "adjective"
+  },
+  "eccentric": {
+    "meaning": "Unconventional and slightly strange.",
+    "synonyms": ["quirky", "odd", "peculiar", "unconventional"],
+    "example": "The eccentric professor wore a different hat every day.",
+    "partOfSpeech": "adjective"
+  },
+  "eloquent": {
+    "meaning": "Fluent or persuasive in speaking or writing.",
+    "synonyms": ["articulate", "fluent", "expressive", "persuasive"],
+    "example": "She gave an eloquent speech at the graduation ceremony.",
+    "partOfSpeech": "adjective"
+  },
+  "emulate": {
+    "meaning": "Match or surpass by imitation.",
+    "synonyms": ["imitate", "copy", "follow", "mirror"],
+    "example": "Young athletes emulate their sports heroes.",
+    "partOfSpeech": "verb"
+  },
+  "enigmatic": {
+    "meaning": "Difficult to interpret or understand; mysterious.",
+    "synonyms": ["mysterious", "puzzling", "cryptic", "inscrutable"],
+    "example": "The Mona Lisa's enigmatic smile has fascinated viewers for centuries.",
+    "partOfSpeech": "adjective"
+  },
+  "ephemeral": {
+    "meaning": "Lasting for a very short time.",
+    "synonyms": ["transient", "fleeting", "momentary", "brief"],
+    "example": "The beauty of cherry blossoms is ephemeral.",
+    "partOfSpeech": "adjective"
+  },
+  "equivocate": {
+    "meaning": "Use ambiguous language so as to conceal the truth.",
+    "synonyms": ["prevaricate", "hedge", "evade", "waffle"],
+    "example": "The politician equivocated when asked about the scandal.",
+    "partOfSpeech": "verb"
+  },
+  "erudite": {
+    "meaning": "Having or showing great knowledge or learning.",
+    "synonyms": ["learned", "scholarly", "knowledgeable", "intellectual"],
+    "example": "The professor was an erudite expert in medieval history.",
+    "partOfSpeech": "adjective"
+  },
+  "esoteric": {
+    "meaning": "Intended for or likely to be understood by only a small number of people.",
+    "synonyms": ["obscure", "arcane", "recondite", "abstruse"],
+    "example": "His research focused on esoteric aspects of quantum physics.",
+    "partOfSpeech": "adjective"
+  },
+  "euphemism": {
+    "meaning": "A mild or indirect word substituted for one considered too harsh.",
+    "synonyms": ["understatement", "indirect expression", "softening"],
+    "example": "'Passed away' is a euphemism for death.",
+    "partOfSpeech": "noun"
+  },
+  "exacerbate": {
+    "meaning": "Make a problem, bad situation, or negative feeling worse.",
+    "synonyms": ["worsen", "aggravate", "intensify", "compound"],
+    "example": "The drought exacerbated the food shortage.",
+    "partOfSpeech": "verb"
+  },
+  "exemplary": {
+    "meaning": "Serving as a desirable model; representing the best of its kind.",
+    "synonyms": ["outstanding", "model", "ideal", "commendable"],
+    "example": "Her work was exemplary in every respect.",
+    "partOfSpeech": "adjective"
+  },
+  "fallacious": {
+    "meaning": "Based on a mistaken belief.",
+    "synonyms": ["wrong", "false", "erroneous", "misleading"],
+    "example": "The argument was based on a fallacious assumption.",
+    "partOfSpeech": "adjective"
+  },
+  "fastidious": {
+    "meaning": "Very attentive to and concerned about accuracy and detail.",
+    "synonyms": ["meticulous", "particular", "scrupulous", "precise"],
+    "example": "She was fastidious about keeping her workspace clean.",
+    "partOfSpeech": "adjective"
+  },
+  "fervent": {
+    "meaning": "Having or displaying a passionate intensity.",
+    "synonyms": ["passionate", "ardent", "zealous", "intense"],
+    "example": "He was a fervent believer in equal rights.",
+    "partOfSpeech": "adjective"
+  },
+  "flamboyant": {
+    "meaning": "Tending to attract attention because of their exuberance, confidence, and stylishness.",
+    "synonyms": ["extravagant", "showy", "ostentatious", "theatrical"],
+    "example": "The flamboyant designer was known for his colorful creations.",
+    "partOfSpeech": "adjective"
+  },
+  "fleeting": {
+    "meaning": "Lasting for a very short time.",
+    "synonyms": ["brief", "transient", "passing", "momentary"],
+    "example": "She caught only a fleeting glimpse of the performer.",
+    "partOfSpeech": "adjective"
+  },
+  "frugal": {
+    "meaning": "Sparing or economical with regard to money or food.",
+    "synonyms": ["thrifty", "economical", "sparing", "careful"],
+    "example": "His frugal lifestyle allowed him to save for retirement.",
+    "partOfSpeech": "adjective"
+  },
+  "garrulous": {
+    "meaning": "Excessively talkative, especially on trivial matters.",
+    "synonyms": ["talkative", "loquacious", "chatty", "verbose"],
+    "example": "The garrulous taxi driver talked the entire ride.",
+    "partOfSpeech": "adjective"
+  },
+  "gregarious": {
+    "meaning": "Fond of company; sociable.",
+    "synonyms": ["sociable", "outgoing", "friendly", "extroverted"],
+    "example": "He was a gregarious person who loved parties.",
+    "partOfSpeech": "adjective"
+  },
+  "hackneyed": {
+    "meaning": "Lacking significance through having been overused.",
+    "synonyms": ["clichéd", "trite", "stale", "banal"],
+    "example": "The speech was full of hackneyed phrases.",
+    "partOfSpeech": "adjective"
+  },
+  "hubris": {
+    "meaning": "Excessive pride or self-confidence.",
+    "synonyms": ["arrogance", "conceit", "pride", "overconfidence"],
+    "example": "His hubris led to his eventual downfall.",
+    "partOfSpeech": "noun"
+  },
+  "hypothetical": {
+    "meaning": "Based on or serving as a hypothesis.",
+    "synonyms": ["theoretical", "speculative", "assumed", "supposed"],
+    "example": "Let's consider a hypothetical scenario.",
+    "partOfSpeech": "adjective"
+  },
+  "impartial": {
+    "meaning": "Treating all rivals or disputants equally; fair and just.",
+    "synonyms": ["unbiased", "neutral", "objective", "fair"],
+    "example": "The judge remained impartial throughout the trial.",
+    "partOfSpeech": "adjective"
+  },
+  "impetuous": {
+    "meaning": "Acting or done quickly and without thought or care.",
+    "synonyms": ["impulsive", "rash", "hasty", "reckless"],
+    "example": "His impetuous decision cost him dearly.",
+    "partOfSpeech": "adjective"
+  },
+  "implicit": {
+    "meaning": "Suggested though not directly expressed.",
+    "synonyms": ["implied", "inferred", "understood", "unspoken"],
+    "example": "There was an implicit understanding between them.",
+    "partOfSpeech": "adjective"
+  },
+  "inadvertent": {
+    "meaning": "Not resulting from or achieved through deliberate planning.",
+    "synonyms": ["unintentional", "accidental", "unplanned", "unintended"],
+    "example": "He made an inadvertent error in the report.",
+    "partOfSpeech": "adjective"
+  },
+  "incessant": {
+    "meaning": "Continuing without pause or interruption.",
+    "synonyms": ["ceaseless", "continuous", "unrelenting", "perpetual"],
+    "example": "The incessant rain flooded the streets.",
+    "partOfSpeech": "adjective"
+  },
+  "indifferent": {
+    "meaning": "Having no particular interest or sympathy; unconcerned.",
+    "synonyms": ["apathetic", "unconcerned", "uninterested", "detached"],
+    "example": "She was indifferent to his pleas for help.",
+    "partOfSpeech": "adjective"
+  },
+  "indignant": {
+    "meaning": "Feeling or showing anger because of something unjust.",
+    "synonyms": ["angry", "incensed", "furious", "outraged"],
+    "example": "She was indignant at the unfair treatment.",
+    "partOfSpeech": "adjective"
+  },
+  "inept": {
+    "meaning": "Having or showing no skill; clumsy.",
+    "synonyms": ["incompetent", "clumsy", "unskilled", "ineffective"],
+    "example": "The inept manager made poor decisions consistently.",
+    "partOfSpeech": "adjective"
+  },
+  "inevitable": {
+    "meaning": "Certain to happen; unavoidable.",
+    "synonyms": ["unavoidable", "certain", "inescapable", "assured"],
+    "example": "Change is inevitable in any growing organization.",
+    "partOfSpeech": "adjective"
+  },
+  "innocuous": {
+    "meaning": "Not harmful or offensive.",
+    "synonyms": ["harmless", "inoffensive", "safe", "benign"],
+    "example": "His comment seemed innocuous at first.",
+    "partOfSpeech": "adjective"
+  },
+  "insidious": {
+    "meaning": "Proceeding in a gradual, subtle way, but with harmful effects.",
+    "synonyms": ["subtle", "treacherous", "cunning", "stealthy"],
+    "example": "The disease was insidious in its slow progression.",
+    "partOfSpeech": "adjective"
+  },
+  "intrepid": {
+    "meaning": "Fearless; adventurous.",
+    "synonyms": ["fearless", "bold", "brave", "daring"],
+    "example": "The intrepid explorer ventured into unknown territory.",
+    "partOfSpeech": "adjective"
+  },
+  "introspective": {
+    "meaning": "Characterized by or given to introspection.",
+    "synonyms": ["reflective", "self-examining", "contemplative", "meditative"],
+    "example": "He became more introspective after the difficult experience.",
+    "partOfSpeech": "adjective"
+  },
+  "irony": {
+    "meaning": "The expression of one's meaning by using language that normally signifies the opposite.",
+    "synonyms": ["sarcasm", "paradox", "incongruity", "contradiction"],
+    "example": "There was a cruel irony in the situation.",
+    "partOfSpeech": "noun"
+  },
+  "jargon": {
+    "meaning": "Special words or expressions used by a profession or group.",
+    "synonyms": ["terminology", "slang", "dialect", "lingo"],
+    "example": "Medical jargon can be confusing to patients.",
+    "partOfSpeech": "noun"
+  },
+  "judicious": {
+    "meaning": "Having, showing, or done with good judgment or sense.",
+    "synonyms": ["wise", "prudent", "sensible", "careful"],
+    "example": "She made a judicious decision to wait.",
+    "partOfSpeech": "adjective"
+  },
+  "laconic": {
+    "meaning": "Using very few words.",
+    "synonyms": ["brief", "concise", "terse", "succinct"],
+    "example": "His laconic reply gave little information.",
+    "partOfSpeech": "adjective"
+  },
+  "lament": {
+    "meaning": "To express grief, sorrow, or regret for; mourn.",
+    "synonyms": ["mourn", "grieve", "bewail", "deplore"],
+    "example": "She lamented the loss of her childhood home.",
+    "partOfSpeech": "verb"
+  },
+  "languid": {
+    "meaning": "Displaying or having a disinclination for physical exertion.",
+    "synonyms": ["lethargic", "sluggish", "listless", "weary"],
+    "example": "The hot afternoon made everyone languid.",
+    "partOfSpeech": "adjective"
+  },
+  "latent": {
+    "meaning": "Existing but not yet developed or manifest; hidden.",
+    "synonyms": ["hidden", "dormant", "concealed", "undeveloped"],
+    "example": "She had a latent talent for music.",
+    "partOfSpeech": "adjective"
+  },
+  "laudable": {
+    "meaning": "Deserving praise and commendation.",
+    "synonyms": ["praiseworthy", "commendable", "admirable", "worthy"],
+    "example": "Her dedication to helping others is laudable.",
+    "partOfSpeech": "adjective"
+  },
+  "lethargic": {
+    "meaning": "Affected by lethargy; sluggish and apathetic.",
+    "synonyms": ["sluggish", "listless", "languid", "torpid"],
+    "example": "The heat made him feel lethargic.",
+    "partOfSpeech": "adjective"
+  },
+  "lucid": {
+    "meaning": "Expressed clearly; easy to understand.",
+    "synonyms": ["clear", "transparent", "coherent", "intelligible"],
+    "example": "He gave a lucid explanation of the complex theory.",
+    "partOfSpeech": "adjective"
+  },
+  "magnanimous": {
+    "meaning": "Very generous or forgiving, especially toward a rival.",
+    "synonyms": ["generous", "noble", "gracious", "charitable"],
+    "example": "The magnanimous victor showed great kindness to the defeated.",
+    "partOfSpeech": "adjective"
+  },
+  "meticulous": {
+    "meaning": "Showing great attention to detail or correct behavior.",
+    "synonyms": ["careful", "precise", "thorough", "exact"],
+    "example": "She kept meticulous records of every transaction.",
+    "partOfSpeech": "adjective"
+  },
+  "mitigate": {
+    "meaning": "Make less severe, serious, or painful.",
+    "synonyms": ["reduce", "lessen", "alleviate", "ease"],
+    "example": "The medicine helped to mitigate the symptoms.",
+    "partOfSpeech": "verb"
+  },
+  "mundane": {
+    "meaning": "Lacking interest or excitement; dull.",
+    "synonyms": ["ordinary", "boring", "dull", "routine"],
+    "example": "She found the mundane office work tedious.",
+    "partOfSpeech": "adjective"
+  },
+  "nefarious": {
+    "meaning": "Wicked or criminal.",
+    "synonyms": ["wicked", "villainous", "evil", "criminal"],
+    "example": "The gang was involved in nefarious activities.",
+    "partOfSpeech": "adjective"
+  },
+  "nostalgia": {
+    "meaning": "A sentimental longing for the past.",
+    "synonyms": ["longing", "reminiscence", "homesickness", "sentimentality"],
+    "example": "Looking at old photos filled her with nostalgia.",
+    "partOfSpeech": "noun"
+  },
+  "objective": {
+    "meaning": "Not influenced by personal feelings or opinions; impartial.",
+    "synonyms": ["impartial", "unbiased", "neutral", "fair"],
+    "example": "Try to give an objective assessment of the situation.",
+    "partOfSpeech": "adjective"
+  },
+  "obscure": {
+    "meaning": "Not discovered or known about; uncertain; not important.",
+    "synonyms": ["unclear", "unknown", "vague", "cryptic"],
+    "example": "He quoted from an obscure medieval text.",
+    "partOfSpeech": "adjective"
+  },
+  "obstinate": {
+    "meaning": "Stubbornly refusing to change one's opinion.",
+    "synonyms": ["stubborn", "inflexible", "headstrong", "unyielding"],
+    "example": "He was too obstinate to admit he was wrong.",
+    "partOfSpeech": "adjective"
+  },
+  "omnipotent": {
+    "meaning": "Having unlimited power; able to do anything.",
+    "synonyms": ["all-powerful", "supreme", "almighty", "absolute"],
+    "example": "The myth portrayed the king as an omnipotent ruler.",
+    "partOfSpeech": "adjective"
+  },
+  "opulent": {
+    "meaning": "Ostentatiously rich and luxurious or lavish.",
+    "synonyms": ["luxurious", "lavish", "rich", "sumptuous"],
+    "example": "The opulent mansion had gold-plated fixtures throughout.",
+    "partOfSpeech": "adjective"
+  },
+  "orthodox": {
+    "meaning": "Conforming to what is generally or traditionally accepted.",
+    "synonyms": ["conventional", "traditional", "mainstream", "accepted"],
+    "example": "He followed orthodox medical treatments.",
+    "partOfSpeech": "adjective"
+  },
+  "ostracize": {
+    "meaning": "Exclude from a society or group.",
+    "synonyms": ["exclude", "banish", "shun", "boycott"],
+    "example": "He was ostracized by his community for his controversial views.",
+    "partOfSpeech": "verb"
+  },
+  "pacify": {
+    "meaning": "Quell the anger, agitation, or excitement of.",
+    "synonyms": ["calm", "soothe", "appease", "mollify"],
+    "example": "She tried to pacify the upset child with gentle words.",
+    "partOfSpeech": "verb"
+  },
+  "paradigm": {
+    "meaning": "A typical example or pattern of something.",
+    "synonyms": ["model", "pattern", "standard", "archetype"],
+    "example": "The discovery created a paradigm shift in our understanding.",
+    "partOfSpeech": "noun"
+  },
+  "paradox": {
+    "meaning": "A seemingly absurd or self-contradictory statement that may prove to be true.",
+    "synonyms": ["contradiction", "anomaly", "inconsistency", "irony"],
+    "example": "It's a paradox that standing still can be the fastest way to slow down.",
+    "partOfSpeech": "noun"
+  },
+  "partisan": {
+    "meaning": "A strong supporter of a party, cause, or person.",
+    "synonyms": ["supporter", "adherent", "devotee", "backer"],
+    "example": "The debate was highly partisan, with each side firmly entrenched.",
+    "partOfSpeech": "noun"
+  },
+  "patronize": {
+    "meaning": "Treat in a condescending manner; be a regular customer of.",
+    "synonyms": ["condescend", "talk down to", "support", "frequent"],
+    "example": "She felt patronized by his overly simple explanation.",
+    "partOfSpeech": "verb"
+  },
+  "pensive": {
+    "meaning": "Engaged in, involving, or reflecting deep or serious thought.",
+    "synonyms": ["thoughtful", "reflective", "contemplative", "meditative"],
+    "example": "She sat in pensive silence for several minutes.",
+    "partOfSpeech": "adjective"
+  },
+  "pervasive": {
+    "meaning": "Spreading widely throughout an area or a group of people.",
+    "synonyms": ["widespread", "ubiquitous", "prevalent", "rampant"],
+    "example": "The smell of coffee was pervasive throughout the café.",
+    "partOfSpeech": "adjective"
+  },
+  "pessimist": {
+    "meaning": "A person who tends to see the worst aspect of things.",
+    "synonyms": ["cynic", "defeatist", "doubter", "skeptic"],
+    "example": "As a pessimist, he always expected the worst outcome.",
+    "partOfSpeech": "noun"
+  },
+  "pragmatic": {
+    "meaning": "Dealing with things sensibly and realistically.",
+    "synonyms": ["practical", "realistic", "sensible", "grounded"],
+    "example": "She took a pragmatic approach to solving the problem.",
+    "partOfSpeech": "adjective"
+  },
+  "precarious": {
+    "meaning": "Not securely held or in position; dependent on chance.",
+    "synonyms": ["unstable", "uncertain", "risky", "insecure"],
+    "example": "The company was in a precarious financial position.",
+    "partOfSpeech": "adjective"
+  },
+  "pretentious": {
+    "meaning": "Attempting to impress by affecting greater importance than is actually possessed.",
+    "synonyms": ["arrogant", "pompous", "affected", "ostentatious"],
+    "example": "The restaurant was unnecessarily pretentious.",
+    "partOfSpeech": "adjective"
+  },
+  "prodigious": {
+    "meaning": "Remarkably or impressively great in extent or degree.",
+    "synonyms": ["enormous", "vast", "tremendous", "colossal"],
+    "example": "She put in a prodigious amount of work to finish the project.",
+    "partOfSpeech": "adjective"
+  },
+  "prolific": {
+    "meaning": "Producing many works, results, or offspring.",
+    "synonyms": ["productive", "fruitful", "creative", "fertile"],
+    "example": "The prolific author published twelve novels in fifteen years.",
+    "partOfSpeech": "adjective"
+  },
+  "prudent": {
+    "meaning": "Acting with or showing care and thought for the future.",
+    "synonyms": ["wise", "sensible", "cautious", "careful"],
+    "example": "It was prudent to save money for emergencies.",
+    "partOfSpeech": "adjective"
+  },
+  "querulous": {
+    "meaning": "Complaining in a petulant or whining manner.",
+    "synonyms": ["complaining", "petulant", "whiny", "peevish"],
+    "example": "The querulous customer complained about everything.",
+    "partOfSpeech": "adjective"
+  },
+  "recalcitrant": {
+    "meaning": "Having an obstinately uncooperative attitude.",
+    "synonyms": ["obstinate", "defiant", "unruly", "stubborn"],
+    "example": "The recalcitrant student refused to follow the rules.",
+    "partOfSpeech": "adjective"
+  },
+  "reconcile": {
+    "meaning": "Restore friendly relations between; make compatible.",
+    "synonyms": ["reunite", "settle", "resolve", "harmonize"],
+    "example": "They finally managed to reconcile their differences.",
+    "partOfSpeech": "verb"
+  },
+  "refute": {
+    "meaning": "Prove a statement or theory to be wrong or false.",
+    "synonyms": ["disprove", "contradict", "deny", "rebut"],
+    "example": "The scientist refuted the earlier claims with new evidence.",
+    "partOfSpeech": "verb"
+  },
+  "resilient": {
+    "meaning": "Able to withstand or recover quickly from difficult conditions.",
+    "synonyms": ["tough", "adaptable", "flexible", "buoyant"],
+    "example": "Children are often more resilient than we expect.",
+    "partOfSpeech": "adjective"
+  },
+  "reticent": {
+    "meaning": "Not revealing one's thoughts or feelings readily.",
+    "synonyms": ["reserved", "quiet", "taciturn", "withdrawn"],
+    "example": "She was reticent about her personal life.",
+    "partOfSpeech": "adjective"
+  },
+  "rhetoric": {
+    "meaning": "The art of effective or persuasive speaking or writing.",
+    "synonyms": ["oratory", "eloquence", "speech", "discourse"],
+    "example": "His political rhetoric impressed the crowd.",
+    "partOfSpeech": "noun"
+  },
+  "sagacious": {
+    "meaning": "Having or showing keen mental discernment and good judgment.",
+    "synonyms": ["wise", "shrewd", "astute", "perceptive"],
+    "example": "The sagacious elder gave sound advice.",
+    "partOfSpeech": "adjective"
+  },
+  "sanctimonious": {
+    "meaning": "Making a show of being morally superior to other people.",
+    "synonyms": ["self-righteous", "pious", "holier-than-thou", "priggish"],
+    "example": "His sanctimonious attitude made him unpopular.",
+    "partOfSpeech": "adjective"
+  },
+  "skeptical": {
+    "meaning": "Not easily convinced; having doubts or reservations.",
+    "synonyms": ["doubtful", "dubious", "unconvinced", "questioning"],
+    "example": "She was skeptical of his grand promises.",
+    "partOfSpeech": "adjective"
+  },
+  "solemn": {
+    "meaning": "Formal and dignified; characterized by deep sincerity.",
+    "synonyms": ["serious", "grave", "formal", "ceremonious"],
+    "example": "They took a solemn vow of silence.",
+    "partOfSpeech": "adjective"
+  },
+  "stoic": {
+    "meaning": "Enduring pain and hardship without showing feelings.",
+    "synonyms": ["unemotional", "impassive", "long-suffering", "resilient"],
+    "example": "He remained stoic through the entire ordeal.",
+    "partOfSpeech": "adjective"
+  },
+  "subversive": {
+    "meaning": "Seeking to undermine the power and authority of an established system.",
+    "synonyms": ["disruptive", "revolutionary", "seditious", "radical"],
+    "example": "The pamphlets were considered subversive by the government.",
+    "partOfSpeech": "adjective"
+  },
+  "superfluous": {
+    "meaning": "Unnecessary, especially through being more than enough.",
+    "synonyms": ["unnecessary", "redundant", "excess", "surplus"],
+    "example": "The instructions were detailed to the point of being superfluous.",
+    "partOfSpeech": "adjective"
+  },
+  "sycophant": {
+    "meaning": "A person who acts obsequiously toward someone important.",
+    "synonyms": ["flatterer", "toady", "yes-man", "bootlicker"],
+    "example": "He surrounded himself with sycophants who never challenged him.",
+    "partOfSpeech": "noun"
+  },
+  "tacit": {
+    "meaning": "Understood or implied without being stated.",
+    "synonyms": ["implied", "unspoken", "understood", "silent"],
+    "example": "There was a tacit agreement between the partners.",
+    "partOfSpeech": "adjective"
+  },
+  "tangible": {
+    "meaning": "Perceptible by touch; clear and definite; real.",
+    "synonyms": ["real", "concrete", "physical", "definite"],
+    "example": "There was tangible evidence of the crime.",
+    "partOfSpeech": "adjective"
+  },
+  "tenacious": {
+    "meaning": "Tending to keep a firm hold of something; not relinquishing.",
+    "synonyms": ["persistent", "determined", "stubborn", "resolute"],
+    "example": "She was tenacious in pursuing her goals.",
+    "partOfSpeech": "adjective"
+  },
+  "tentative": {
+    "meaning": "Not certain or fixed; provisional.",
+    "synonyms": ["provisional", "uncertain", "hesitant", "experimental"],
+    "example": "They made tentative plans for the summer.",
+    "partOfSpeech": "adjective"
+  },
+  "tirade": {
+    "meaning": "A long, angry speech of criticism or accusation.",
+    "synonyms": ["rant", "harangue", "outburst", "diatribe"],
+    "example": "He launched into a tirade about the unfair treatment.",
+    "partOfSpeech": "noun"
+  },
+  "transient": {
+    "meaning": "Lasting only for a short time; impermanent.",
+    "synonyms": ["temporary", "fleeting", "passing", "brief"],
+    "example": "Happiness can be transient if not cultivated properly.",
+    "partOfSpeech": "adjective"
+  },
+  "trepidation": {
+    "meaning": "A feeling of fear or agitation about something that may happen.",
+    "synonyms": ["anxiety", "nervousness", "apprehension", "dread"],
+    "example": "She approached the job interview with great trepidation.",
+    "partOfSpeech": "noun"
+  },
+  "trivial": {
+    "meaning": "Of little value or importance.",
+    "synonyms": ["insignificant", "minor", "unimportant", "petty"],
+    "example": "Don't waste time on trivial details.",
+    "partOfSpeech": "adjective"
+  },
+  "ubiquitous": {
+    "meaning": "Present, appearing, or found everywhere.",
+    "synonyms": ["omnipresent", "universal", "widespread", "pervasive"],
+    "example": "Smartphones have become ubiquitous in modern life.",
+    "partOfSpeech": "adjective"
+  },
+  "undermine": {
+    "meaning": "Damage or weaken, especially gradually or insidiously.",
+    "synonyms": ["weaken", "sabotage", "subvert", "erode"],
+    "example": "His actions undermined trust within the team.",
+    "partOfSpeech": "verb"
+  },
+  "vacuous": {
+    "meaning": "Having or showing a lack of thought or intelligence.",
+    "synonyms": ["empty", "vacant", "mindless", "inane"],
+    "example": "His vacuous comments added nothing to the discussion.",
+    "partOfSpeech": "adjective"
+  },
+  "vehement": {
+    "meaning": "Showing strong feeling; forceful, passionate, or intense.",
+    "synonyms": ["intense", "forceful", "passionate", "fervent"],
+    "example": "She made a vehement argument for the proposal.",
+    "partOfSpeech": "adjective"
+  },
+  "verbose": {
+    "meaning": "Using or expressed in more words than are needed.",
+    "synonyms": ["wordy", "long-winded", "prolix", "garrulous"],
+    "example": "His verbose writing style made the document difficult to read.",
+    "partOfSpeech": "adjective"
+  },
+  "viable": {
+    "meaning": "Capable of working successfully; feasible.",
+    "synonyms": ["feasible", "workable", "practical", "possible"],
+    "example": "The new business model was not economically viable.",
+    "partOfSpeech": "adjective"
+  },
+  "vigilant": {
+    "meaning": "Keeping careful watch for possible danger or difficulties.",
+    "synonyms": ["watchful", "alert", "attentive", "observant"],
+    "example": "Be vigilant about protecting your personal information online.",
+    "partOfSpeech": "adjective"
+  },
+  "vindictive": {
+    "meaning": "Having or showing a strong or unreasoning desire for revenge.",
+    "synonyms": ["vengeful", "spiteful", "retaliatory", "unforgiving"],
+    "example": "His vindictive behavior after the breakup was alarming.",
+    "partOfSpeech": "adjective"
+  },
+  "volatile": {
+    "meaning": "Liable to change rapidly and unpredictably, especially for the worse.",
+    "synonyms": ["unpredictable", "explosive", "unstable", "erratic"],
+    "example": "The situation in the region remains volatile.",
+    "partOfSpeech": "adjective"
+  },
+  "voracious": {
+    "meaning": "Wanting or devouring great quantities of food or, figuratively, something else.",
+    "synonyms": ["insatiable", "ravenous", "avid", "greedy"],
+    "example": "She was a voracious reader who finished a book a day.",
+    "partOfSpeech": "adjective"
+  },
+  "whimsical": {
+    "meaning": "Playfully quaint or fanciful; acting impulsively.",
+    "synonyms": ["playful", "fanciful", "quirky", "capricious"],
+    "example": "The garden was filled with whimsical sculptures.",
+    "partOfSpeech": "adjective"
+  },
+  "wistful": {
+    "meaning": "Having or showing a feeling of vague or regretful longing.",
+    "synonyms": ["nostalgic", "longing", "yearning", "melancholy"],
+    "example": "She gave a wistful smile when remembering her childhood.",
+    "partOfSpeech": "adjective"
+  },
+  "zealous": {
+    "meaning": "Having or showing zeal; enthusiastic.",
+    "synonyms": ["enthusiastic", "fervent", "passionate", "eager"],
+    "example": "He was a zealous advocate for environmental protection.",
+    "partOfSpeech": "noun"
+  }
+}
