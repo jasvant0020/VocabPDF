@@ -49,7 +49,7 @@ To learn more about developing your project with Expo, look at the following res
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
 ## Release
-- [download](https://drive.google.com/file/d/1TYEepwxFWjbaCviMUjT6iATqQmla6H53/view?usp=sharing) and install it 
+- [download](https://drive.google.com/file/d/1d40RMiq0Fus-7_cohTw2d14DpITxiuo2/view?usp=sharing) and install it 
 
 ## Join the community
 
